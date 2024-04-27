@@ -37,8 +37,6 @@ Java pages, in the context of this project, likely refer to Java files containin
 
 # Project Structure
 
-# Project Structure
-
 Instamart/
 │
 ├── src/                                  # Source files
@@ -60,4 +58,28 @@ Instamart/
 ├── README.md                             # Project README
 ├── sample-signup.html                    # Sample signup HTML file
 └── sign-in.html                          # Sample sign-in HTML file
+
+
+
+
+# Project Structure
+
+[Instamart/](#)
+│
+├── [src/](#)
+│   ├── [main/](#)
+│   │   ├── [java/](#)                        # Java source files
+│   │   ├── [webapp/](#)                      # Web application resources
+│   │   │   ├── [WEB-INF/](#)                 # Configuration files
+│   │   │   └── [...]                         # HTML, JSP, CSS, JS files
+│   │   └── [resources/](#)                   # Resource files
+│   └── [test/](#)                            # Test source files
+│
+├── [database/](#)                            # SQL database scripts
+│   └── [instamart.sql](#)                    # Database schema
+│
+├── [README.md](#)                            # Project README
+├── [sample-signup.html](#)                   # Sample signup HTML file
+└── [sign-in.html](#)                         # Sample sign-in HTML file
+
 
