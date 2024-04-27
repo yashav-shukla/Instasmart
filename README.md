@@ -37,25 +37,27 @@ Java pages, in the context of this project, likely refer to Java files containin
 
 # Project Structure
 
-Instasmart/
+# Project Structure
+
+Instamart/
 │
 ├── src/                                  # Source files
 │   ├── main/
 │   │   ├── java/                         # Java source files
+│   │   │   ├── BO/                       # Business Objects
+│   │   │   ├── DAO/                      # Data Access Objects
+│   │   │   ├── Domain/                   # Domain Models
+│   │   │   ├── Utility/                  # Utility classes
 │   │   ├── webapp/                       # Web application resources
 │   │   │   ├── WEB-INF/                  # Configuration files
 │   │   │   └── ...                       # HTML, JSP, CSS, JS files
 │   │   └── resources/                    # Resource files
-│   └── BO, DAO, Doamin, Utility                
+│   └── test/                             # Test source files
 │
-├── database/                # SQL database scripts
-│   └── instamart.sql        # Database schema
+├── database/                             # SQL database/ Oracle MySQL database scripts
+│   └── instamart.sql                     # Database schema
 │
-│
-└── README.md                # Project README
-|
-│    
-└──  sample-signup.html  
-|
-│    
-└── sign-in.html
+├── README.md                             # Project README
+├── sample-signup.html                    # Sample signup HTML file
+└── sign-in.html                          # Sample sign-in HTML file
+
